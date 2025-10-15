@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"inc": "inc/",
+			"src": "src/",
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"CTAWEAPI.H": "c",
+			"TYPES.H": "c",
+			"FILEIO.H": "c",
+			"MIDITMR.H": "c",
+			"TIMER.H": "c",
+			"MEMORY.H": "c",
+			"SCROLLER.H": "c",
+			"LOADGIF.H": "c",
+			"LOGGER.H": "c",
+			"MIDI.H": "c",
+			"OPL.H": "c",
+			"DSP.H": "c",
+			"AWE32DRV.H": "c",
+			"GUSDRV.H": "c",
+			"FILEIO.C": "c",
+			"MIDITMR.C": "c",
+			"TIMER.C": "c",
+			"MEMORY.C": "c",
+			"SCROLLER.C": "c",
+			"LOADGIF.C": "c",
+			"LOGGER.C": "c",
+			"MIDI.C": "c",
+			"OPL.C": "c",
+			"DSP.C": "c",
+			"AWE32DRV.C": "c",
+			"GUSDRV.C": "c"
+		},
+		"C_Cpp.intelliSenseCacheSize": 0,
+		"editor.detectIndentation": false,
+	 	"editor.rulers": [
+        90,
+        120
+    	],
+   	"editor.tabSize": 3,
+		"editor.insertSpaces": false,
+		"editor.acceptSuggestionOnEnter": "off"
+	}
+}

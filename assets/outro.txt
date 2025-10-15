@@ -1,0 +1,158 @@
+%244%
+<< Cybersnake 2000 Turbo >>
+%018%
+<< Retronomitron(tm) Ltd >>
+
+%40%
+Created and developed by
+%32%
+Marwellus Obscurius
+Shizzlabang, XVII.
+
+%40%
+Look, mah!
+I've hacked a DOS game!
+It's crap! But it's mine! X-P
+
+
+%244%
+<< Development Hell Details >>
+
+%40%
+It started as a "Let's just try,
+it'll be fun!" retro project and
+ended up being this absurd game.
+
+I had no clue, really, what was
+awaiting me, being an JAVA/C#-Dev
+for almost my entire life.
+Segmentation, Interrupts, Ports,
+VGA, DMA, Real & Protected Mode, 
+DPMI? - What the actual fuck ...
+
+But I kept going, kept getting
+beaten for every tiny error
+I made, but every punch only
+made me fight harder. I wanted
+to know if I could make it.
+I had to make it ... 
+
+$IMAGE$
+
+It's been an experience
+unlike anything before.
+
+
+%244%
+< Technical Features >
+
+%40%
+Mode 13h Engine
+Double-Buffering
+Special Effects
+DSP + OPL3 Sound
+MIDI Music Player
+PCX + GIF loader
+Cache Manager
+Interrupt Game Control
+Infinitiy Scroller
+%40%
+
+Compiled with Watcom 11 on
+%018%
+P-100 | 16mb | Trio 64 (PCI)
+SB AWE32 | DOS 6.22
+
+%40%
+Also tested on
+%018%
+486DX2-66 | 8mb | ET4000 (VLB)
+SB Pro 2.0 | GUS | DOS 6.22
+
+386DX-33 | 4mb | S3 '801 (ISA)
+AudioDrive ES688 | DOS 6.22
+(runs okayish'ish :-P)
+
+
+%244%
+<< Thanks To >>
+
+%32%
+All the legendary devs who are
+still a great inspiriation!
+
+%32%
+The great team behind 86Box!
+%40%
+There's nothing like pure
+authenticity. (I broke the CD-ROM
+drive btw, can you fix it? ;-)
+
+%32%
+Mark Feldman
+(and all involved)
+%40%
+For the great Encyclopedia!
+
+%32%
+Shawn Hargreaves
+%40%
+I stole your MIDI-Routines and
+put m_pHungarian notations
+everywhere! :-P
+
+%018%
+Interfictional Buzz Machines
+%40%
+For creating a true beast of
+a machine that sucked so hard
+my fucking eye won't 
+stop twitching ...
+
+
+%244%
+<< A Tribute To The Heroes >>
+
+%32%
+Those who once took up arms
+against the mighty IBM MACHINE
+shall never be forgotten!
+*
+Their tales must be spread
+and told evermore, for they speak
+of passion, perseverance,
+and lived masochism!
+Of battles against interrupts,
+memory segmentation,
+treacherous API interfaces,
+an twisted quirks and glitches!
+*
+They fought in an age
+when nothing was certain
+and every stone could only
+be set upon shifting ground.
+*
+A time when archaic gods
+mercilessly crushed all
+who failed to follow
+their countless commandments!
+Or even dared to defy
+their capricious whims!
+*
+The battlefield is soaked
+with the blood and sweat 
+of all those hackers, 
+and only few were able
+to outwit the gods and ascend
+to become true legends!
+*
+Forget them not!
+Forget not how it all once began!
+
+We all stand upon
+the shoulders
+of giants!
+
+<Gand01ph>
+"Lords Of The Machine"
+
