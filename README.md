@@ -11,8 +11,8 @@
 
 # CYBERSNAKE 2000 TURBO
 
-![CYBERSNAKE 2000 TURBO](_stuff/cybersnake.gif)
-![CYBERSNAKE 2000 TURBO](_stuff/snake-game.gif)
+![CYBERSNAKE 2000 TURBO](_img/start.png)
+![CYBERSNAKE 2000 TURBO](_img/lvl04.png)
 
 by Marwellus <marwellus@disruption.global>
 

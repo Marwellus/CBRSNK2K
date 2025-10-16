@@ -1,0 +1,25 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+/_WATCOMH
+/assets/_safe
+/assets/DP_PREFS
+/backup
+/AWE/SBK
+/GUS/201
+/bin
+/test
+/stuff
+notes.md
+debug.log
+link.rsp
+snake.map
+/src/__scrap.c
+/src/__scrap.cpp
+*.obj
+*.err
+*.mk1
+*.wpj
+.clangd
+ASSETS/retronom.gif
+ASSETS/rtronome.pcx
+ASSETS/rtronomi.pcx
