@@ -19,7 +19,7 @@ byte __DEVICE = 0;
 struct arg { 
 	char* str; 
 	addr* param; 
-	int val; 
+	int val;
 };
 arg args[8] = {
 	{ "\0", NULL, 0 },

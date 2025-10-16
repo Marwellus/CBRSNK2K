@@ -1,37 +1,41 @@
 {
-  "configurations": [
-    {
-      "name": "linux-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "browse": {
-        "path": [
-          "${workspaceFolder}/src",
-          "${workspaceFolder}/inc",
-          "${workspaceFolder}/awe"
-        ],
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "defines": [
-        "__WATCOMC__",
-        "_M_IX86",
-        "__DOS__",
-        "__FLAT__",
-        "__386__",
-        "_PASCAL_=",
-        "__interrupt=",
-        "__far=",
-        "_interrupt=",
-        "_far=",
-        "inp=",
-        "outp="
-      ],
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "linux-gcc-x64"
-    }
-  ],
-  "version": 4
+	"configurations": [
+		{
+			"name": "Watcom",
+			"includePath": [
+            "${workspaceFolder}",
+				"${workspaceFolder}/_watcomh",
+				"${workspaceFolder}/awe"
+			],
+			"browse": {
+					"path": [
+						"/opt/watcom/h",
+						"/opt/watcom/lh",
+						"${workspaceFolder}/src",
+						"${workspaceFolder}/inc",
+						"${workspaceFolder}/awe"
+					],
+					"limitSymbolsToIncludedHeaders": true
+			},
+			"defines": [
+					"__WATCOMC__",
+					"_M_IX86",
+					"__DOS__",
+					"__FLAT__",
+					"__386__",
+					"_PASCAL_=",
+					"__interrupt=",
+					"__far=",
+					"_interrupt=",
+					"_far=",
+					"inp=",
+					"outp="
+			],
+			"compilerPath": "/opt/watcom/binl64/wpp386",
+			"cStandard": "c89",
+			"cppStandard": "c++98",
+			"intelliSenseMode": "msvc-x86"
+		}
+	],
+	"version": 4
 }

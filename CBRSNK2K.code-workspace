@@ -43,6 +43,7 @@
     	],
    	"editor.tabSize": 3,
 		"editor.insertSpaces": false,
-		"editor.acceptSuggestionOnEnter": "off"
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.fontFamily": "'Agave Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace"
 	}
 }

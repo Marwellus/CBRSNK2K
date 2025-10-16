@@ -1,6 +1,5 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
-/_WATCOMH
 /assets/_safe
 /assets/DP_PREFS
 /backup
