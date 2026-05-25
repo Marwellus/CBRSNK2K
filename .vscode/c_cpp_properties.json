@@ -9,8 +9,7 @@
 			],
 			"browse": {
 					"path": [
-						"/opt/watcom/h",
-						"/opt/watcom/lh",
+						"c:/watcom/h",
 						"${workspaceFolder}/src",
 						"${workspaceFolder}/inc",
 						"${workspaceFolder}/awe"
@@ -31,10 +30,10 @@
 					"inp=",
 					"outp="
 			],
-			"compilerPath": "/opt/watcom/binl64/wpp386",
+			"compilerPath": "c:/watcom/binnt64/wpp386.exe",
 			"cStandard": "c89",
 			"cppStandard": "c++98",
-			"intelliSenseMode": "msvc-x86"
+			"intelliSenseMode": "windows-msvc-x86"
 		}
 	],
 	"version": 4

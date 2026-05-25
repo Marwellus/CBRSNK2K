@@ -5,7 +5,7 @@
 CC = wcc386
 CPP = wpp386
 LINK = wlink
-RM = rm
+RM = del
 
 # Directories
 SRCDIR = src
@@ -118,98 +118,98 @@ $(TARGET): $(BINDIR) $(OBJS)
 	@$(RM) link.rsp
 
 # Explicit rules for C++ files
-$(OBJDIR)/main.obj: $(SRCDIR)/main.cpp
+$(OBJDIR)/main.obj: $(SRCDIR)\main.cpp
 	@echo Compiling main.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/main.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\main.cpp
 
-$(OBJDIR)/game.obj: $(SRCDIR)/game.cpp
+$(OBJDIR)/game.obj: $(SRCDIR)\game.cpp
 	@echo Compiling game.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/game.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\game.cpp
 
-$(OBJDIR)/draw.obj: $(SRCDIR)/draw.cpp
+$(OBJDIR)/draw.obj: $(SRCDIR)\draw.cpp
 	@echo Compiling draw.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/draw.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\draw.cpp
 
-$(OBJDIR)/video.obj: $(SRCDIR)/video.cpp
+$(OBJDIR)/video.obj: $(SRCDIR)\video.cpp
 	@echo Compiling video.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/video.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\video.cpp
 
-$(OBJDIR)/field.obj: $(SRCDIR)/field.cpp
+$(OBJDIR)/field.obj: $(SRCDIR)\field.cpp
 	@echo Compiling field.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/field.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\field.cpp
 
-$(OBJDIR)/snake.obj: $(SRCDIR)/snake.cpp
+$(OBJDIR)/snake.obj: $(SRCDIR)\snake.cpp
 	@echo Compiling snake.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/snake.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\snake.cpp
 
-$(OBJDIR)/cater.obj: $(SRCDIR)/cater.cpp
+$(OBJDIR)/cater.obj: $(SRCDIR)\cater.cpp
 	@echo Compiling cater.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/cater.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\cater.cpp
 
-$(OBJDIR)/boss.obj: $(SRCDIR)/boss.cpp
+$(OBJDIR)/boss.obj: $(SRCDIR)\boss.cpp
 	@echo Compiling boss.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/boss.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\boss.cpp
 
-$(OBJDIR)/font.obj: $(SRCDIR)/font.cpp
+$(OBJDIR)/font.obj: $(SRCDIR)\font.cpp
 	@echo Compiling font.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/font.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\font.cpp
 
-$(OBJDIR)/sound.obj: $(SRCDIR)/sound.cpp
+$(OBJDIR)/sound.obj: $(SRCDIR)\sound.cpp
 	@echo Compiling sound.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/sound.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\sound.cpp
 
-$(OBJDIR)/music.obj: $(SRCDIR)/music.cpp
+$(OBJDIR)/music.obj: $(SRCDIR)\music.cpp
 	@echo Compiling music.cpp...
-	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)/music.cpp
+	$(CPP) $(CPPFLAGS) -fo=$@ $(SRCDIR)\music.cpp
 
 # Explicit rules for C files
-$(OBJDIR)/timer.obj: $(SRCDIR)/timer.c
+$(OBJDIR)/timer.obj: $(SRCDIR)\timer.c
 	@echo Compiling timer.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/timer.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\timer.c
 
-$(OBJDIR)/memory.obj: $(SRCDIR)/memory.c
+$(OBJDIR)/memory.obj: $(SRCDIR)\memory.c
 	@echo Compiling memory.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/memory.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\memory.c
 
-$(OBJDIR)/fileio.obj: $(SRCDIR)/fileio.c
+$(OBJDIR)/fileio.obj: $(SRCDIR)\fileio.c
 	@echo Compiling fileio.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/fileio.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\fileio.c
 
-$(OBJDIR)/dsp.obj: $(SRCDIR)/dsp.c
+$(OBJDIR)/dsp.obj: $(SRCDIR)\dsp.c
 	@echo Compiling dsp.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/dsp.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\dsp.c
 
-$(OBJDIR)/opl.obj: $(SRCDIR)/opl.c
+$(OBJDIR)/opl.obj: $(SRCDIR)\opl.c
 	@echo Compiling opl.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/opl.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\opl.c
 
-$(OBJDIR)/awe32drv.obj: awe/awe32drv.c
+$(OBJDIR)/awe32drv.obj: awe\awe32drv.c
 	@echo Compiling awe32drv.c...
-	$(CC) $(CFLAGS) -fo=$@ awe/awe32drv.c
+	$(CC) $(CFLAGS) -fo=$@ awe\awe32drv.c
 
-$(OBJDIR)/gusdrv.obj: gus/gusdrv.c
+$(OBJDIR)/gusdrv.obj: gus\gusdrv.c
 	@echo Compiling gusdrv.c...
-	$(CC) $(CFLAGS) -fo=$@ gus/gusdrv.c
+	$(CC) $(CFLAGS) -fo=$@ gus\gusdrv.c
 
-$(OBJDIR)/midi.obj: $(SRCDIR)/midi.c
+$(OBJDIR)/midi.obj: $(SRCDIR)\midi.c
 	@echo Compiling midi.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/midi.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\midi.c
 
-$(OBJDIR)/miditmr.obj: $(SRCDIR)/miditmr.c
+$(OBJDIR)/miditmr.obj: $(SRCDIR)\miditmr.c
 	@echo Compiling miditmr.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/miditmr.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\miditmr.c
 
-$(OBJDIR)/scroller.obj: $(SRCDIR)/scroller.c
+$(OBJDIR)/scroller.obj: $(SRCDIR)\scroller.c
 	@echo Compiling scroller.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/scroller.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\scroller.c
 
-$(OBJDIR)/logger.obj: $(SRCDIR)/logger.c
+$(OBJDIR)/logger.obj: $(SRCDIR)\logger.c
 	@echo Compiling logger.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/logger.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\logger.c
 
-$(OBJDIR)/loadgif.obj: $(SRCDIR)/loadgif.c
+$(OBJDIR)/loadgif.obj: $(SRCDIR)\loadgif.c
 	@echo Compiling loadgif.c...
-	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)/loadgif.c
+	$(CC) $(CFLAGS) -fo=$@ $(SRCDIR)\loadgif.c
 
 # Clean build
 clean:
